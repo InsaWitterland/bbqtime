@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+
+}
+
+.game  {
+    display: flex;
+    width: 1920;
+    height: 1080;
+    /* what does position relative do again? What canvas size is the best?*/
+    position: relative;
+    /*overflow is so that the items will stay in frame*/
+    overflow: hidden;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+
+/* BBQ style part */
+
+
+.plate {
+    /* So my school wants me to use em instead of px, but I don't really get the system yet.. And I am lost why I did this..
+    My classmate told me she used the padding-top to space stuff..          */
+    padding-top: 8em;
+    max-width:20%;
+    height:max-content;
+}
+
+
+.rawsatePlate {
+    padding-top: 6em;
+    position: absolute;
+    max-width:15%;
+    height:auto;
+}
+
+.rawsateBbqLeft {
+    padding-top: 20em;
+    max-width:40%;
+    height:max-content;
+    font-size: 0em;
+
+    
+}
+.flames {
+    padding-top: 18em;
+}
+
+.rawsateBbqMiddle {
+    padding-top: 20em;
+    position: absolute;
+    max-width:40%;
+    height:max-content;
+    font-size: 0em;
+}
+
+.rawsateBbqRight {
+    padding-top: 20em;
+    max-width:40%;
+    height:max-content;
+    font-size: 0em;
+}
