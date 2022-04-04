@@ -36,8 +36,6 @@ h1 {
 .trashcan   {
     padding-top: 10em;
     height: 10em;
-    font-family: ;
-
 }
 
 .grill  {
@@ -46,7 +44,7 @@ h1 {
 }
 
 
-.plate {
+#plate {
     /* So my school wants me to use em instead of px, but I don't really get the system yet.. And I am lost why I did this..
     My classmate told me she used the padding-top to space stuff..          */
     padding-top: 8em;
@@ -64,18 +62,19 @@ h1 {
 }
 
 .rawsateGrill {
-    padding-top: 6em;
+    padding-top: 2em;
     position: absolute;
     max-width:15%;
     height:auto;
-    transform: rotate(25deg);
+    transform: rotate(50deg);
 }
 
 .grillAndSate{
+    display: grid;
     height: 24em;
-    position:fixed;
     font-size: large;
 }
+
 
 .sateBbq    {
     padding-top: 10em;
