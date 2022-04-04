@@ -17,6 +17,10 @@ h1 {
     color: white;
 }
 
+.start-btn {
+    
+}
+
 .game  {
     display: flex;
     width: 1920;

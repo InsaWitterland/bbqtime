@@ -1,5 +1,3 @@
-let testFunction = ()=> {
-
-};
-
-console.log("test")
+function startGame()    {
+    
+}
