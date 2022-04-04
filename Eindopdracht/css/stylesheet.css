@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../img/bg.png");
+    background-image: url("../img/background.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,13 @@ body {
 
     height: 100%;
 
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    color: white;
 }
 
 .game  {
@@ -20,15 +27,18 @@ body {
     overflow: hidden;
 }
 
-h1 {
-    justify-content: center;
-    text-align: center;
-    font-size: 3em;
-    color: white;
+/* BBQ style part */
+
+.trashcan   {
+    padding-top: 10em;
+    height: 10em;
+
 }
 
-
-/* BBQ style part */
+.grill  {
+    padding-top: 10em;
+    height: 10em;
+}
 
 
 .plate {
@@ -45,31 +55,10 @@ h1 {
     position: absolute;
     max-width:15%;
     height:auto;
+    transform: rotate(25deg);
 }
 
-.rawsateBbqLeft {
-    padding-top: 20em;
-    max-width:40%;
-    height:max-content;
-    font-size: 0em;
-
-    
-}
-.flames {
-    padding-top: 18em;
-}
-
-.rawsateBbqMiddle {
-    padding-top: 20em;
-    position: absolute;
-    max-width:40%;
-    height:max-content;
-    font-size: 0em;
-}
-
-.rawsateBbqRight {
-    padding-top: 20em;
-    max-width:40%;
-    height:max-content;
-    font-size: 0em;
+.sateBbq    {
+    padding-top: 10em;
+    height: 10em;
 }
