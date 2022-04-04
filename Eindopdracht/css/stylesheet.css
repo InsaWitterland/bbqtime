@@ -36,6 +36,7 @@ h1 {
 .trashcan   {
     padding-top: 10em;
     height: 10em;
+    font-family: ;
 
 }
 
@@ -60,6 +61,20 @@ h1 {
     max-width:15%;
     height:auto;
     transform: rotate(25deg);
+}
+
+.rawsateGrill {
+    padding-top: 6em;
+    position: absolute;
+    max-width:15%;
+    height:auto;
+    transform: rotate(25deg);
+}
+
+.grillAndSate{
+    height: 24em;
+    position:fixed;
+    font-size: large;
 }
 
 .sateBbq    {
