@@ -1,0 +1,10 @@
+Game Cooking satay 
+Steps 
+- Satay is on a plate 
+- Click on satay on the plate it moves to the grill. 
+- can only have 3 satay per moment 
+- Wait for satay 
+- Satay is sizzling 
+- Grill for 3 secs 
+- If it grills over 3 secs satay burns 
+- Click on satay to move to other plate on the right 
