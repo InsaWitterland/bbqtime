@@ -8,3 +8,9 @@ Steps
 - Grill for 3 secs 
 - If it grills over 3 secs satay burns 
 - Click on satay to move to other plate on the right 
+
+Sate Cooking
+-Infinite amount on plate
+-When raw sate plate clicked startsate appears on the grill that was hidden
+-When clicking on sate when one is already on the grill, then it will be next to the first one
+-When sate is on grill, keyframe animation will start
