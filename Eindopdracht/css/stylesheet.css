@@ -3,10 +3,8 @@ body {
     background-image: url("../img/background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-
-    height: 100%;
+    background-color: #cccccc;
 
 }
 
@@ -17,69 +15,33 @@ h1 {
     color: white;
 }
 
-#start-btn {
-    
-}
-
 .game  {
     display: flex;
     width: 1920;
     height: 1080;
     /* what does position relative do again? What canvas size is the best?*/
-    position: relative;
     /*overflow is so that the items will stay in frame*/
     overflow: hidden;
 }
 
 /* BBQ style part */
 
-.trashcan   {
-    padding-top: 10em;
-    height: 10em;
-}
-
-.grill  {
-    padding-top: 10em;
-    height: 10em;
-}
-
-
-#plate {
-    /* So my school wants me to use em instead of px, but I don't really get the system yet.. And I am lost why I did this..
-    My classmate told me she used the padding-top to space stuff..          */
-    padding-top: 8em;
-    max-width:20%;
-    height:max-content;
-}
-
-
 .rawsatePlate {
-    padding-top: 6em;
-    position: absolute;
+    padding-bottom: 3em;
+    padding-left: 3em;
     max-width:15%;
-    height:auto;
-    transform: rotate(25deg);
+    transform: rotate(40deg);
 }
 
-.rawsateGrill {
-    padding-top: 2em;
-    position: absolute;
-    max-width:15%;
-    height:auto;
-    transform: rotate(50deg);
-}
+/*/////////////////////////////////////////////*/
 
-.grillAndSate{
-    display: grid;
-    height: 24em;
-    font-size: large;
+.sateGrill {
+    
 }
 
 
-.sateBbq    {
-    padding-top: 10em;
-    height: 10em;
-}
+/*///////////////////////////////////////*/
+
 
 .sateCooking    {
     animation-name: cooking;
