@@ -29,14 +29,14 @@ h1 {
 .rawsatePlate {
     padding-bottom: 3em;
     padding-left: 3em;
-    max-width:15%;
-    transform: rotate(40deg);
+    max-width:25%;
 }
 
 /*/////////////////////////////////////////////*/
 
 .grillSate {
-    transform: rotate(35deg);
+    display: flex;
+    max-width: 20%;
 }
 
 
